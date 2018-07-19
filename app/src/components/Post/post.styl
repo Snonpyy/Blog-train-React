@@ -1,0 +1,39 @@
+@require "app/styles/charte"
+
+/*
+ * Classes
+ */
+.post
+  cursor: pointer
+  padding: 5%
+  width: 50%
+  line-height: 1.4
+
+  &:hover
+    background: $white-almost
+
+  &-title
+    font-size: 1.4em
+    font-family: Oswald
+    text-transform: uppercase
+
+  &-category
+    background: $red
+    color: $white
+    display: inline-block
+    font-size: .6em
+    letter-spacing: .1em
+    margin: .25em 0 .5em
+    padding: .5em .75em
+    text-transform: uppercase
+
+  &-excerpt
+    color: $gray
+    font-weight: 300
+
+  @media (max-width: $phone)
+    width: 100%
+
+/*
+ * ID
+ */
